@@ -1,0 +1,264 @@
+/***********************
+ **** PRIMARY THEME ****
+ ***********************/
+.thm-pr {
+	background: #55C9BE;
+	color: #FFF;
+	border-color: transparent;
+}
+
+.thm-pr a,
+.thm-pr a:link,
+.thm-pr a:visited,
+.thm-pr a:hover,
+.thm-pr a:active {
+	color: #FFF;
+}
+
+.thm-pr-i {
+	background: #FFF;
+	color: #55C9BE;
+	border-color: #55C9BE;
+}
+
+.thm-pr-i a,
+.thm-pr-i a:link,
+.thm-pr-i a:visited,
+.thm-pr-i a:hover,
+.thm-pr-i a:active {
+	color: #55C9BE;
+}
+
+.thm-pr-c {
+	background: transparent;
+	color: #55C9BE;
+	border-color: #55C9BE;
+}
+
+.thm-pr-c a,
+.thm-pr-c a:link,
+.thm-pr-c a:visited,
+.thm-pr-c a:hover,
+.thm-pr-c a:active {
+	color: #55C9BE;
+}
+
+/*************************
+ **** SECONDARY THEME ****
+ *************************/
+.thm-sc {
+	background: #0093E9;
+	color: #FFF;
+}
+
+.thm-sc a,
+.thm-sc a:link,
+.thm-sc a:visited,
+.thm-sc a:hover,
+.thm-sc a:active {
+	color: #FFF;
+}
+
+.thm-sc-i {
+	background: #FFF;
+	color: #0093E9;
+	border-color: #0093E9;
+}
+
+.thm-sc-i a,
+.thm-sc-i a:link,
+.thm-sc-i a:visited,
+.thm-sc-i a:hover,
+.thm-sc-i a:active {
+	color: #0093E9;
+}
+
+.thm-sc-c {
+	background: transparent;
+	color: #0093E9;
+	border-color: #0093E9;
+}
+
+.thm-sc-c a,
+.thm-sc-c a:link,
+.thm-sc-c a:visited,
+.thm-sc-c a:hover,
+.thm-sc-c a:active {
+	color: #0093E9;
+}
+
+/*********************
+ **** WHITE THEME ****
+ *********************/
+.thm-wt {
+	background: #FFF;
+	color: #7B7E80;
+}
+
+.thm-wt a,
+.thm-wt a:link,
+.thm-wt a:visited,
+.thm-wt a:hover,
+.thm-wt a:active {
+	color: #7B7E80;
+}
+
+.thm-wt-i {
+	background: #7B7E80;
+	color: #FFF;
+	border-color: #FFF;
+}
+
+.thm-wt-i a,
+.thm-wt-i a:link,
+.thm-wt-i a:visited,
+.thm-wt-i a:hover,
+.thm-wt-i a:active {
+	color: #FFF;
+}
+
+.thm-wt-c {
+	background: transparent;
+	color: #FFF;
+	border-color: #FFF;
+}
+
+.thm-wt-c a,
+.thm-wt-c a:link,
+.thm-wt-c a:visited,
+.thm-wt-c a:hover,
+.thm-wt-c a:active {
+	color: #FFF;
+}
+
+/*********************
+ **** LIGHT THEME ****
+ *********************/
+.thm-lt {
+	background: #FAFAFA;
+	color: #7B7E80;
+}
+
+.thm-lt a,
+.thm-lt a:link,
+.thm-lt a:visited,
+.thm-lt a:hover,
+.thm-lt a:active {
+	color: #7B7E80;
+}
+
+.thm-lt-i {
+	background: #7B7E80;
+	color: #FAFAFA;
+	border-color: #FAFAFA;
+}
+
+.thm-lt-i a,
+.thm-lt-i a:link,
+.thm-lt-i a:visited,
+.thm-lt-i a:hover,
+.thm-lt-i a:active {
+	color: #FAFAFA;
+}
+
+.thm-lt-c {
+	background: transparent;
+	color: #FAFAFA;
+	border-color: #FAFAFA;
+}
+
+.thm-lt-c a,
+.thm-lt-c a:link,
+.thm-lt-c a:visited,
+.thm-lt-c a:hover,
+.thm-lt-c a:active {
+	color: #FAFAFA;
+}
+
+/**********************
+ **** MEDIUM THEME ****
+ **********************/
+.thm-md {
+	background: #777;
+	color: #7B7E80;
+}
+
+.thm-md a,
+.thm-md a:link,
+.thm-md a:visited,
+.thm-md a:hover,
+.thm-md a:active {
+	color: #7B7E80;
+}
+
+.thm-md-i {
+	background: #7B7E80;
+	color: #777;
+	border-color: #777;
+}
+
+.thm-md-i a,
+.thm-md-i a:link,
+.thm-md-i a:visited,
+.thm-md-i a:hover,
+.thm-md-i a:active {
+	color: #777;
+}
+
+.thm-md-c {
+	background: transparent;
+	color: #777;
+	border-color: #777;
+}
+
+.thm-md-c a,
+.thm-md-c a:link,
+.thm-md-c a:visited,
+.thm-md-c a:hover,
+.thm-md-c a:active {
+	color: #777;
+}
+
+/********************
+ **** DARK THEME ****
+ ********************/
+.thm-dk {
+	background: #7B7E80;
+	color: #FFF;
+}
+
+.thm-dk a,
+.thm-dk a:link,
+.thm-dk a:visited,
+.thm-dk a:hover,
+.thm-dk a:active {
+	color: #FFF;
+}
+
+.thm-dk-i {
+	background: #FFF;
+	color: #7B7E80;
+	border-color: #7B7E80;
+}
+
+.thm-dk-i a,
+.thm-dk-i a:link,
+.thm-dk-i a:visited,
+.thm-dk-i a:hover,
+.thm-dk-i a:active {
+	color: #7B7E80;
+}
+
+.thm-dk-c {
+	background: transparent;
+	color: #7B7E80;
+	border-color: #7B7E80;
+}
+
+.thm-dk-c a,
+.thm-dk-c a:link,
+.thm-dk-c a:visited,
+.thm-dk-c a:hover,
+.thm-dk-c a:active {
+	color: #7B7E80;
+}
