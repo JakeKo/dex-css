@@ -5,14 +5,7 @@ var autoprefixer = require('autoprefixer');
 var cssnano = require('cssnano');
  
 gulp.task('css', function () {
-	return gulp.src('./css/*.styl')
-		.pipe(stylus())
-		.pipe(postcss([autoprefixer]))
-		.pipe(gulp.dest('./dist/css/'));
-});
-
-gulp.task('minify', function() {
-	return gulp.src('./css/*.styl')
+	return gulp.src('./src/styl/*.styl')
 		.pipe(stylus())
 		.pipe(postcss([autoprefixer, cssnano]))
 		.pipe(gulp.dest('./dist/css/'));
