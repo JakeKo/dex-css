@@ -15,9 +15,8 @@
   width: 100%;
 }
 .box {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .ptr {
   cursor: pointer;
@@ -29,19 +28,24 @@
   border-radius: 50%;
 }
 .shdw-xs {
-  box-shadow: 0 1px 2px 0 rgba(21,21,21,0.25);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(21,21,21,0.25);
+          box-shadow: 0 1px 2px 0 rgba(21,21,21,0.25);
 }
 .shdw-sm {
-  box-shadow: 0 0 4px 0 rgba(21,21,21,0.25);
+  -webkit-box-shadow: 0 0 4px 0 rgba(21,21,21,0.25);
+          box-shadow: 0 0 4px 0 rgba(21,21,21,0.25);
 }
 .shdw-md {
-  box-shadow: 0 0 16px 0 rgba(21,21,21,0.25);
+  -webkit-box-shadow: 0 0 16px 0 rgba(21,21,21,0.25);
+          box-shadow: 0 0 16px 0 rgba(21,21,21,0.25);
 }
 .shdw-lg {
-  box-shadow: 0 0 24px 0 rgba(21,21,21,0.25);
+  -webkit-box-shadow: 0 0 24px 0 rgba(21,21,21,0.25);
+          box-shadow: 0 0 24px 0 rgba(21,21,21,0.25);
 }
 .shdw-xl {
-  box-shadow: 0 0 48px 0 rgba(21,21,21,0.25);
+  -webkit-box-shadow: 0 0 48px 0 rgba(21,21,21,0.25);
+          box-shadow: 0 0 48px 0 rgba(21,21,21,0.25);
 }
 .brdr-xthn {
   border: 0.5px solid;
@@ -97,10 +101,8 @@
   float: right;
 }
 .no-select {
-  -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }

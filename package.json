@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/JakeKo/dex-css#readme",
   "devDependencies": {
+    "autoprefixer": "^7.2.3",
     "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
     "gulp-stylus": "^2.7.0"
   },
   "dependencies": {}
