@@ -1,6 +1,3 @@
-/***********************
- **** PRIMARY THEME ****
- ***********************/
 .thm-pr {
   background: #55c9be;
   color: #fff;
@@ -37,9 +34,6 @@
 .thm-pr-c a:active {
   color: #55c9be;
 }
-/*************************
- **** SECONDARY THEME ****
- *************************/
 .thm-sc {
   background: #0093e9;
   color: #fff;
@@ -75,9 +69,6 @@
 .thm-sc-c a:active {
   color: #0093e9;
 }
-/*********************
- **** WHITE THEME ****
- *********************/
 .thm-wt {
   background: #fff;
   color: #7b7e80;
@@ -113,9 +104,6 @@
 .thm-wt-c a:active {
   color: #fff;
 }
-/*********************
- **** LIGHT THEME ****
- *********************/
 .thm-lt {
   background: #fafafa;
   color: #7b7e80;
@@ -151,9 +139,6 @@
 .thm-lt-c a:active {
   color: #fafafa;
 }
-/**********************
- **** MEDIUM THEME ****
- **********************/
 .thm-md {
   background: #777;
   color: #7b7e80;
@@ -189,9 +174,6 @@
 .thm-md-c a:active {
   color: #777;
 }
-/********************
- **** DARK THEME ****
- ********************/
 .thm-dk {
   background: #7b7e80;
   color: #fff;

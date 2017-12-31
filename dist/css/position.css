@@ -4,9 +4,6 @@
 .abs {
   position: absolute;
 }
-.fix {
-  position: fixed;
-}
 .abs-t {
   position: absolute;
   top: 0;
@@ -42,8 +39,8 @@
 }
 .abs-cl {
   position: absolute;
-  top: 50%;
   left: 0;
+  top: 50%;
   transform: translateY(-50%);
 }
 .abs-cc {
@@ -55,8 +52,8 @@
 }
 .abs-cr {
   position: absolute;
-  top: 50%;
   right: 0;
+  top: 50%;
   transform: translateY(-50%);
 }
 .abs-bl {
@@ -75,6 +72,9 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.fix {
+  position: fixed;
 }
 .fix-t {
   position: fixed;
@@ -111,8 +111,8 @@
 }
 .fix-cl {
   position: fixed;
-  top: 50%;
   left: 0;
+  top: 50%;
   transform: translateY(-50%);
 }
 .fix-cc {
@@ -124,8 +124,8 @@
 }
 .fix-cr {
   position: fixed;
-  top: 50%;
   right: 0;
+  top: 50%;
   transform: translateY(-50%);
 }
 .fix-bl {

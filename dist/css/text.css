@@ -6,7 +6,6 @@
   font-family: 'Body';
   src: url("../../rsc/Work-Sans-Regular.ttf");
 }
-/* HEADING TEXT 1 */
 .h1 {
   font-size: 144px;
   font-family: 'Heading';
@@ -18,7 +17,6 @@
     line-height: 108px;
   }
 }
-/* HEADING TEXT 2 */
 .h2 {
   font-size: 108px;
   font-family: 'Heading';
@@ -30,7 +28,6 @@
     line-height: 88px;
   }
 }
-/* HEADING TEXT 3 */
 .h3 {
   font-size: 88px;
   font-family: 'Heading';
@@ -42,7 +39,6 @@
     line-height: 72px;
   }
 }
-/* HEADING TEXT 4 */
 .h4 {
   font-size: 72px;
   font-family: 'Heading';
@@ -54,7 +50,6 @@
     line-height: 48px;
   }
 }
-/* HEADING TEXT 5 */
 .h5 {
   font-size: 48px;
   font-family: 'Heading';
@@ -66,7 +61,6 @@
     line-height: 32px;
   }
 }
-/* HEADING TEXT 6 */
 .h6 {
   font-size: 32px;
   font-family: 'Heading';
@@ -78,7 +72,6 @@
     line-height: 32px;
   }
 }
-/* BODY TEXT 1 */
 .b1 {
   font-size: 48px;
   font-family: 'Body';
@@ -90,7 +83,6 @@
     line-height: 48px;
   }
 }
-/* BODY TEXT 2 */
 .b2 {
   font-size: 32px;
   font-family: 'Body';
@@ -102,7 +94,6 @@
     line-height: 36px;
   }
 }
-/* BODY TEXT 3 */
 .b3 {
   font-size: 24px;
   font-family: 'Body';
@@ -114,7 +105,6 @@
     line-height: 28px;
   }
 }
-/* BODY TEXT 4 */
 .b4 {
   font-size: 18px;
   font-family: 'Body';
@@ -126,7 +116,6 @@
     line-height: 24px;
   }
 }
-/* BODY TEXT 5 */
 .b5 {
   font-size: 16px;
   font-family: 'Body';
@@ -138,7 +127,6 @@
     line-height: 18px;
   }
 }
-/* BODY TEXT 6 */
 .b6 {
   font-size: 12px;
   font-family: 'Body';
