@@ -20,18 +20,4 @@ gulp.task('stylus', function () {
 		.pipe(gulp.dest('./dist/css/'));
 });
 
-gulp.task('css', function () {
-	var processors = [
-		mqpacker,
-		autoprefixer,
-		cssnano,
-	];
-
-	return gulp.src('./src/styl/*.styl')
-		.pipe(stylus())
-		.pipe(postcss(processors))
-		.pipe(rename({ extname: '.min.css' }))
-		.pipe(gulp.dest('./dist/css/'));
-});
-
 gulp.task('default', ['stylus']);
