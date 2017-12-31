@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Heading';
+  src: url("../../rsc/Freestyle-Script-Regular.ttf");
+}
+@font-face {
+  font-family: 'Body';
+  src: url("../../rsc/Work-Sans-Regular.ttf");
+}
+.h1 {
+  font-size: 144px;
+  font-family: 'Heading';
+  line-height: 144px;
+}
+.h2 {
+  font-size: 108px;
+  font-family: 'Heading';
+  line-height: 108px;
+}
+.h3 {
+  font-size: 88px;
+  font-family: 'Heading';
+  line-height: 88px;
+}
+.h4 {
+  font-size: 72px;
+  font-family: 'Heading';
+  line-height: 72px;
+}
+.h5 {
+  font-size: 48px;
+  font-family: 'Heading';
+  line-height: 48px;
+}
+.h6 {
+  font-size: 32px;
+  font-family: 'Heading';
+  line-height: 32px;
+}
+.b1 {
+  font-size: 48px;
+  font-family: 'Body';
+  line-height: 64px;
+}
+.b2 {
+  font-size: 32px;
+  font-family: 'Body';
+  line-height: 48px;
+}
+.b3 {
+  font-size: 24px;
+  font-family: 'Body';
+  line-height: 36px;
+}
+.b4 {
+  font-size: 18px;
+  font-family: 'Body';
+  line-height: 28px;
+}
+.b5 {
+  font-size: 16px;
+  font-family: 'Body';
+  line-height: 24px;
+}
+.b6 {
+  font-size: 12px;
+  font-family: 'Body';
+  line-height: 18px;
+}
+.txt-thk {
+  font-weight: 900;
+}
+.txt-bld {
+  font-weight: 700;
+}
+.txt-std {
+  font-weight: 400;
+}
+.txt-nrw {
+  font-weight: 300;
+}
+.txt-thn {
+  font-weight: 200;
+}
+.txt-c {
+  text-align: center;
+}
+.txt-j {
+  text-align: justify;
+}
+.txt-l {
+  text-align: left;
+}
+.txt-r {
+  text-align: right;
+}
+@media only screen and (max-width: 720px) {
+  .h1 {
+    font-size: 108px;
+    line-height: 108px;
+  }
+  .h2 {
+    font-size: 88px;
+    line-height: 88px;
+  }
+  .h3 {
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .h4 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .h5 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .h6 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .b1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .b2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .b3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .b4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .b5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .b6 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

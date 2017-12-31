@@ -6,6 +6,20 @@ var cssnano = require('cssnano');
 var mqpacker = require('css-mqpacker');
 var rename = require('gulp-rename');
  
+gulp.task('stylus', function () {
+	var processors = [
+		mqpacker,
+		autoprefixer,
+		cssnano,
+	];
+
+	return gulp.src('./src/styl/*.styl')
+		.pipe(stylus())
+		.pipe(postcss(processors))
+		.pipe(rename({ extname: '.min.css' }))
+		.pipe(gulp.dest('./dist/css/'));
+});
+
 gulp.task('css', function () {
 	var processors = [
 		mqpacker,
@@ -20,4 +34,4 @@ gulp.task('css', function () {
 		.pipe(gulp.dest('./dist/css/'));
 });
 
-gulp.task('default', ['css']);
+gulp.task('default', ['stylus']);
